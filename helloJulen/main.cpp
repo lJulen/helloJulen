@@ -7,13 +7,18 @@
 
 #include <iostream>
 #include <string>
+// Horrela std::cout jarri beharrean, zuzenean cout jarri dezaket
+using namespace std;
 int main(int argc, const char * argv[]) {
     // insert code here...
     // Izena eskatzen du
-    std::cout << "Write a name, please" << std::endl;
+    cout << "Write a name, please" << endl;
     // Bariable honetan gordetzen det, eta erabiltzaileak idazten duena bertan gordetzen dut
-    std::string nombre;
-    std::cin >> nombre;
-    std::cout << "Hello, " << nombre << std::endl;
+    string nombre;
+    cin >> nombre;
+    cout << "Hello, " << nombre << endl;
+
     return 0;
+    
+    
 }
